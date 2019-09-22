@@ -37,7 +37,7 @@ end
 
 def reduce(array, val = nil)
   
-  i, sum = 0, 0
+  i, sum = 0
   val ? (sum = val) : ('')
   
   while i < array.length
