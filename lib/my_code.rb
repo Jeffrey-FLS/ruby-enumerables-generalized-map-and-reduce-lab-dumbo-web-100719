@@ -48,6 +48,7 @@ def reduce(array, val = nil)
   end
   
   return sum
+  binding.pry
   
   # bool == true ? (return bool) : (return sum)
   
