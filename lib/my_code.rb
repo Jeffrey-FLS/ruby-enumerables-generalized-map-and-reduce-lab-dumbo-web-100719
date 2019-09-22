@@ -47,9 +47,9 @@ def reduce(array, val = nil)
     i += 1
   end
   
-  # return sum
+  return sum
   
-  bool == true ? (return bool) : (return sum)
+  # bool == true ? (return bool) : (return sum)
   
 end
 
