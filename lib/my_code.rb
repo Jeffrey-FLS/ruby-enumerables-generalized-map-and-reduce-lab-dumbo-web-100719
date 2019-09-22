@@ -37,7 +37,10 @@ end
 
 def reduce(array, val = nil)
   
-  val == true : starting_value = val ? '' 
+  starting_value = 0
+  val ? (starting_value = val) : ('')
+  
+  
   
 end
 
