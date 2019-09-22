@@ -38,7 +38,7 @@ end
 def reduce(array, val = nil)
   
   i, sum = 0, 0
-  val ? (sum = val) : ('')
+  val ? (sum = val) : (i = 1)
   
   while i < array.length
     sum = yield(sum, array[i])
