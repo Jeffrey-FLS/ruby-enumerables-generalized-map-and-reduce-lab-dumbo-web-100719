@@ -38,15 +38,19 @@ end
 def reduce(array, val = nil)
   
   i, sum = 0, 0
+  bool = false
   val ? (sum = val) : ('')
   
   while i < array.length
     sum = yield(sum, array[i])
-    array[i] == true ? (return true) : ('') 
+    array[i] == true ? (bool = true) : ('') 
     i += 1
   end
   
-  return sum
+  # return sum
+  
+  bool == true ? (return bool) : (return sum)
+  
 end
 
 
