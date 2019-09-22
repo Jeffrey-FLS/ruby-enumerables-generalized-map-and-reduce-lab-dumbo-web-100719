@@ -1,3 +1,4 @@
+require 'pry'
 
 def map(array)
   new_array = []
